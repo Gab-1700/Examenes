@@ -8,8 +8,6 @@ public class Examen2{
 
         public Examen2(){
 
-        }   
-
-        lo 
+        }
 
 }

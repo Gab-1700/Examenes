@@ -50,5 +50,13 @@ public class ExamenFinal
         return cadenanueva;
     }
 
-    
+    public int[] IndexOf5(string cadena, string aparicion)
+    {
+        throw new NotImplementedException();
+    }
+
+    public int[,] CrearMatriz(int longitud)
+    {
+        throw new NotImplementedException();
+    }
 }
