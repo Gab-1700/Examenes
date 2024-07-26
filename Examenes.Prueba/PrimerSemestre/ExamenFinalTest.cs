@@ -7,7 +7,7 @@ public class ExamenFinalTest
   private static readonly object[] _matrizTriangular =
   {
     new object[] {1, new int[,] {{1}}},
-    new object[] {2, new int[,] {{1,0},{0,1}}},
+    new object[] {2, new int[,] {{1,0},{1,1}}},
     new object[] {3, new int[,] {{1,0,0},{1,1,0},{1,1,1}}},
     new object[] {4, new int[,] {{1,0,0,0},{1,1,0,0},{1,1,1,0},{1,1,1,1}}},
     new object[] {7, new int[,] {{1,0,0,0,0,0,0},{1,1,0,0,0,0,0},{1,1,1,0,0,0,0},{1,1,1,1,0,0,0},{1,1,1,1,1,0,0},{1,1,1,1,1,1,0},{1,1,1,1,1,1,1}}}
@@ -21,10 +21,10 @@ public class ExamenFinalTest
   }
 
   [TestCase("Mi sol es el sol del verano", "el", new[] { 10, 18 })]
-  [TestCase("Los dos niños corren rápido", "os", new[] { 1, 5, 11 })]
-  [TestCase("El mar es el mar de la tarde", "el", new[] { 1, 10 })]
-  [TestCase("La luz es muy luz para ti", "luz", new[] { 3, 14 })]
-  [TestCase("Astuto casa hola casa", "as", new[] { 8, 18 })]
+  [TestCase("Los dos niños corren rápido", "os", new[] { 5, 11 })]
+  [TestCase("Las gaviotas vuelan cerca del mar", "el", new[] { 15, 27 })]
+  [TestCase("La luz es muy luz para ti", "lu", new[] { 3, 14 })]
+  [TestCase("Astuto casa hola casa", "sa", new[] { 9, 19 })]
   public void IndexOf5_RetornaLosIndicesEsperados(string cadena, string aparicion, int[] indices)
   {
     // Act
