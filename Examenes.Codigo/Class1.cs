@@ -39,7 +39,7 @@ public class Class1
         
     }
 
-    public static void Resoluciones(int numero)
+    public static void Resoluciones1(int numero)
     {
        // int ultimo= numero & 10;
         //int copia= numero&10;
