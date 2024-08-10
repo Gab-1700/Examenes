@@ -8,7 +8,7 @@ public class FabricaSerieTest
   public void SerieFibonacci_Test()
   {
     // Act
-    var fabrica = CargarFabrica("SerieFibonacci");
+    var fabrica = CargarFabrica("FabricaFibonacci");
     var serie = fabrica.GenerarSerie();
 
     // Assert
@@ -24,7 +24,7 @@ public class FabricaSerieTest
   public void SeriePrimo_Test()
   {
     // Act
-    var fabrica = CargarFabrica("SeriePrimo");
+    var fabrica = CargarFabrica("FabricaPrimo");
     var serie = fabrica.GenerarSerie();
 
     // Assert
@@ -40,7 +40,7 @@ public class FabricaSerieTest
   public void SerieTriangular_Test()
   {
     // Act
-    var fabrica = CargarFabrica("SerieTriangular");
+    var fabrica = CargarFabrica("FabricaTriangular");
     var serie = fabrica.GenerarSerie();
 
     // Assert
@@ -55,7 +55,7 @@ public class FabricaSerieTest
   public void SerieFactorial_Test()
   {
     // Act
-    var fabrica = CargarFabrica("SerieFactorial");
+    var fabrica = CargarFabrica("FabricaFactorial");
     var serie = fabrica.GenerarSerie();
 
     // Assert
@@ -71,7 +71,7 @@ public class FabricaSerieTest
   public void SerieCuadrado_Test()
   {
     // Act
-    var fabrica = CargarFabrica("SerieCuadrado");
+    var fabrica = CargarFabrica("FabricaCuadrado");
     var serie = fabrica.GenerarSerie();
 
     // Assert
